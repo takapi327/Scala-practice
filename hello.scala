@@ -137,18 +137,3 @@
 //   // 改行を追加している
 //   tableSeq.mkString("\n")
 // }
-
-import scala.io.StdIn
-
-def register_book() =
-  println("本の登録")
-  println("著者を入力してください")
-  val name:String = StdIn.readLine()
-  println("タイトルを入力してください")
-  val tittle:String = StdIn.readLine()
-  println("価格を入力してください")
-  val price:String = StdIn.readLine()
-
-  println("著者："+name)
-  println("タイトル："+tittle)
-  println("価格："+price)
