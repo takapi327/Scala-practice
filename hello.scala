@@ -38,6 +38,28 @@
 // for(i <- 0 to 2)
 //   println(num(i))
 
+// タプルの使用法
+// val pair = (99, "Luftballons")
+// println(pair._1)
+// println(pair._2)
+
+// import scala.collection.mutable
+// val set = mutable.Set("one", "two")
+// set += "three"
+// println(set)
+
+// import scala.collection.mutable
+// val map = mutable.Map[Int, String]()
+// map += (1 -> "one")
+// map += (2 -> "two")
+// map += (3 -> "three")
+// println(map(2))
+
+// var map = Map(1 -> "one", 2 -> "two", 3 -> "three")
+// map += (4 -> "fwor")
+// println(map)
+// println(map(4))
+
 // import scala.io.Source
 
 // if(args.length > 0){
@@ -64,6 +86,27 @@
 // object ChecksumAccumulator{
   
 // }
+
+// オブジェクト型
+// def formatArgs(args: Array[String]): Unit = {
+//   var i = 0
+//   while (i < args.length){
+//     println(args(i))
+//     i += 1
+//   }
+// }
+
+// // 関数型
+// def formatArgs(args: Array[String]) = args.mkString("\n")
+// // テスト
+// val res = formatArgs(Array("hello", "world", "!")) 
+// assert(res == "hello\nworld\n!")
+
+class Check{
+  private var sum = 0
+  def add(b: Byte) = sum += b
+  // def check() = ~(sum & 0xFF) + 1
+}
 
 // val firstArg = if(args.length > 0) args(0) else ""
 // firstArg match{
