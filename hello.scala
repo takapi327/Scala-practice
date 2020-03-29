@@ -12,62 +12,6 @@
 //     printf("Hello, %s!\n", "World")
 // }
 
-// while分の使用法
-// var i = 0
-// while (i < args.length) {
-//   if (i != 0)
-//     print("")
-//   print(args(i))
-//   i += 1
-// }
-// println()
-
-// foreach分の使用法
-// args.foreach(println)
-
-// for分の使用法
-// for (arg <- args)
-//   println(arg)
-
-// 配列の使用法
-// val num = Array("zero", "one", "two")
-// val num = new Array[String](3)
-// num(0) = "Hello"
-// num(1) = "world"
-// num(2) = "!"
-// for(i <- 0 to 2)
-//   println(num(i))
-
-// タプルの使用法
-// val pair = (99, "Luftballons")
-// println(pair._1)
-// println(pair._2)
-
-// import scala.collection.mutable
-// val set = mutable.Set("one", "two")
-// set += "three"
-// println(set)
-
-// import scala.collection.mutable
-// val map = mutable.Map[Int, String]()
-// map += (1 -> "one")
-// map += (2 -> "two")
-// map += (3 -> "three")
-// println(map(2))
-
-// var map = Map(1 -> "one", 2 -> "two", 3 -> "three")
-// map += (4 -> "fwor")
-// println(map)
-// println(map(4))
-
-// import scala.io.Source
-
-// if(args.length > 0){
-//   for(line <- Source.fromFile(args(0)).getLines())
-//     println(line.length + "" + line)
-// }else
-//   Console.err.println("Please enter filename")
-
 // def widthOfLength(s: String) = s.length.toString.length
 // if(args.length > 0){
 //   val lines = Source.fromFile(args(0)).getLines().toList
@@ -84,7 +28,6 @@
 
 // import scala.collection.mutable
 // object ChecksumAccumulator{
-  
 // }
 
 // オブジェクト型
