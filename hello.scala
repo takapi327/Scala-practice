@@ -77,3 +77,28 @@ class Check{
 //     i += 1
 //   }
 // }
+
+// クラス、フィールド、メソッドの使い方
+class Class {
+  var sum = 0
+}
+
+val acc = new Class
+val csa = new Class
+
+// シングルトンオブジェクトの使い方
+import scala.collection.mutable
+object Class {
+  private val cache = mutable.Map.empty[String, Int]
+  def calculate(s: String): Int =
+    if(cache.contains(s))
+      cache(s)
+    else {
+      val acc = new Class
+      for(c <- s)
+        acc.add(c.toByte)
+      val cs = acc.checksum()
+      cache += (s -> cs)
+      cs
+    }
+}
