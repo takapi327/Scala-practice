@@ -78,27 +78,43 @@ class Check{
 //   }
 // }
 
-// クラス、フィールド、メソッドの使い方
-class Class {
-  var sum = 0
+// import Class.calculate
+
+// object summer {
+//   def main(args: Array[String]) = {
+//     for(arg <- args)
+//       println(arg + ": " + calculate(arg))
+//   }
+// }
+
+// アサーションとテスト
+import org.scalatest.FunSuite
+import Element.elem
+class ElementSuite extends FunSuite {
+  test("elem result should have passed width"){
+    val ele = elem('x', 2, 3)
+    assert(ele.width == 2)
+  }
 }
 
-val acc = new Class
-val csa = new Class
-
-// シングルトンオブジェクトの使い方
-import scala.collection.mutable
-object Class {
-  private val cache = mutable.Map.empty[String, Int]
-  def calculate(s: String): Int =
-    if(cache.contains(s))
-      cache(s)
-    else {
-      val acc = new Class
-      for(c <- s)
-        acc.add(c.toByte)
-      val cs = acc.checksum()
-      cache += (s -> cs)
-      cs
+// FlatSpecで振る舞いを規定してテストする
+import org.scalatest.FlatSpec
+import org.scalatest.Matchers
+import Element.elem
+class ElementSpec extends FlatSpec with Matchers {
+  "A UniformElement" should
+    "have a width equal to the passed value" in {
+      val ele = elem('x', 2, 3)
+      ele.width should be (2)
+    }
+    it should "have a height equal to the passed value" in {
+      val ele = elem('x', 2, 3)
+      ele.height should be (3)
+    }
+    it should "throw an IAE if passed a negative width" in {
+      an[IllegalArgumentExeception] should be thrownBy {
+        elem('x', 2, 3)
+      }
     }
 }
+
