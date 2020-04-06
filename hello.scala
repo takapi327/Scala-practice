@@ -44,7 +44,7 @@
 // // テスト
 // val res = formatArgs(Array("hello", "world", "!")) 
 // assert(res == "hello\nworld\n!")
-
+/*
 class Check{
   private var sum = 0
   def add(b: Byte) = sum += b
@@ -117,4 +117,4 @@ class ElementSpec extends FlatSpec with Matchers {
       }
     }
 }
-
+*/

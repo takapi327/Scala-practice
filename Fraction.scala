@@ -1,4 +1,5 @@
 // 分数の計算
+/*
 class Rational(n: Int, d: Int){
   // println("Created" + n + "/" + d)
   require(d != 0)
@@ -33,3 +34,4 @@ class Rational(n: Int, d: Int){
   private def gcd(a: Int, b: Int): Int =
     if(b == 0) a else gcd(b, a % b)
 }
+*/

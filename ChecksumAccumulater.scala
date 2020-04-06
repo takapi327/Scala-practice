@@ -5,7 +5,7 @@
 
 // val acc = new Class
 // val csa = new Class
-
+/*
 class Class {
   private var sum = 0
   def add(b: Byte) = sum += b 
@@ -33,3 +33,4 @@ object Class {
       cs
     }
 }
+*/

@@ -1,4 +1,5 @@
 // 九九の計算
+/*
 def makeRowSeq(row: Int) =
   // colに1から10までの数字を入れる
   for(col <- 1 to 10) yield {
@@ -20,3 +21,4 @@ def multiTable() = {
   // 改行を追加している
   tableSeq.mkString("\n")
 }
+*/
