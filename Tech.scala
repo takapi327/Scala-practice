@@ -1,5 +1,6 @@
 object Main extends App {
   import scala.io.StdIn
+  import scala.util.Try
 
   def review = {
     val p = new Preview
@@ -9,13 +10,14 @@ object Main extends App {
       println("[0]レビューを書く")
       println("[1]レビューを読む")
       println("[2]アプリを終了する")
-      var input = StdIn.readInt()
+
+      var input = Try(StdIn.readInt()).toOption
 
       input match {
-        case 0 => p.post_review
-        case 1 => p.read_review
-        case 2 => println("アプリを終了"); b = false
-        case other => println("入力された値は無効な値です")
+        case Some(0) => p.post_review
+        case Some(1) => p.read_review
+        case Some(2) => println("アプリを終了"); b = false
+        case _ => println("入力された値は無効な値です")
       }
     }
   }
