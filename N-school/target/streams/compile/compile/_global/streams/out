@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/test.scala:314:56: not found: value i[0m
+[0m[[0m[31merror[0m] [0m[0m      if (textPart.length < pattern.length || textPart(i) != pattern(i)) isMatch = false[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/test.scala:314:70: not found: value i[0m
+[0m[[0m[31merror[0m] [0m[0m      if (textPart.length < pattern.length || textPart(i) != pattern(i)) isMatch = false[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

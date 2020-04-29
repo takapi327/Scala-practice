@@ -1,1 +1,1 @@
-scalac -bootclasspath /Users/takapi327/.sbt/boot/scala-2.12.10/lib/scala-library.jar -classpath /Users/takapi327/test/N-school/target/scala-2.12/classes /Users/takapi327/test/N-school/test.scala
+scalac -bootclasspath /Users/takapi327/.sbt/boot/scala-2.12.10/lib/scala-library.jar -classpath /Users/takapi327/test/N-school/target/scala-2.12/classes /Users/takapi327/test/N-school/05.scala

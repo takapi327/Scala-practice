@@ -1,6 +1,6 @@
 #FileLock
-#Sun Apr 26 18:50:38 JST 2020
+#Wed Apr 29 23:02:41 JST 2020
 hostName=takapi
-id=171b5e558a2a211c8108fd4c5b428bb958cea082e0f
+id=171c63f2ed0e630e2676c818b572bb21dd523e40727
 method=file
-server=192.168.3.6\:51942
+server=192.168.3.6\:55675

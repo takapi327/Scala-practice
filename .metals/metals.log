@@ -1,38 +1,7 @@
-4 26, 2020 6:50:39 午後 org.xnio.Xnio <clinit>
+4 29, 2020 11:02:42 午後 org.xnio.Xnio <clinit>
 INFO: XNIO version 3.6.5.Final
-4 26, 2020 6:50:39 午後 org.xnio.nio.NioXnio <clinit>
+4 29, 2020 11:02:42 午後 org.xnio.nio.NioXnio <clinit>
 INFO: XNIO NIO Implementation Version 3.6.5.Final
-4 26, 2020 6:50:39 午後 org.jboss.threads.Version <clinit>
+4 29, 2020 11:02:42 午後 org.jboss.threads.Version <clinit>
 INFO: JBoss Threads version 2.3.0.Beta2
-4 28, 2020 12:18:14 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 59
-4 28, 2020 12:21:39 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 111
-4 28, 2020 12:27:57 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 144
-4 28, 2020 12:28:33 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 170
-4 28, 2020 12:28:56 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 191
-something's wrong: no file:///Users/takapi327/test/N-school/test.scala in Map[Int,Int]RangePosition(file:///Users/takapi327/test/N-school/test.scala, 539, 539, 552)
-something's wrong: no file:///Users/takapi327/test/N-school/test.scala in Map[Int,Int]RangePosition(file:///Users/takapi327/test/N-school/test.scala, 539, 539, 552)
-4 28, 2020 12:29:19 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 201
-4 28, 2020 12:31:09 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 211
-4 28, 2020 12:33:20 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 227
-4 28, 2020 12:34:11 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 230
-4 28, 2020 12:34:42 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 240
-4 28, 2020 12:35:28 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 255
-4 28, 2020 12:36:37 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 263
-4 28, 2020 12:36:49 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 287
-4 28, 2020 12:37:02 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 291
-4 28, 2020 12:38:35 午前 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-警告: Unmatched cancel notification for request id 296
+INFO  Started Metals http server at http://127.0.0.1:5031
