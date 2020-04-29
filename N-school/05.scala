@@ -1,3 +1,4 @@
+/*
 object PartialSumDFS extends App {
   val a = Seq(1, 10, 49, 3, 8, 13, 7, 23, 60, -500, 42, 599, 45, -23, 1, 10, 49, 3 , 8, 13)
   val n = a.length
@@ -15,3 +16,4 @@ object PartialSumDFS extends App {
   val (isMatch, result) = isMatchAndResult(0, Seq())
   if (isMatch) println(s"Yes ${result}") else println("No")
 }
+*/

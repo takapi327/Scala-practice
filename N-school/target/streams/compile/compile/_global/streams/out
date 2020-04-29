@@ -1,7 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/test.scala:314:56: not found: value i[0m
-[0m[[0m[31merror[0m] [0m[0m      if (textPart.length < pattern.length || textPart(i) != pattern(i)) isMatch = false[0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/test.scala:314:70: not found: value i[0m
-[0m[[0m[31merror[0m] [0m[0m      if (textPart.length < pattern.length || textPart(i) != pattern(i)) isMatch = false[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:64: value × is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:72: value × is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:80: value × is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

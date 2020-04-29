@@ -36,3 +36,38 @@ exit
 compile
 run
 exit
+compile
+runMain ControlSyntax
+run
+compile
+run
+compile
+run
+printIsBaby(4)
+run printIsBaby(4)
+printIsBaby(4)
+compile
+run
+compile
+run
+ControlSyntax.printIsBaby(3, false)
+run ControlSyntax.printIsBaby(3, false)
+runControlSyntax.printIsBaby(3, false)
+runMain ControlSyntax.printIsBaby(3, false)
+scala
+exit
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+exit
