@@ -1,10 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:64: value × is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:72: value × is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/08.scala:27:80: value × is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m    for (a <- 1 to 1000; b <- 1 to 1000; c <- 1 to 1000; if (a × a = b × b + c × c)) println((a, b, c))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/09.scala:26:26: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m      case _      => Seq(x)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
