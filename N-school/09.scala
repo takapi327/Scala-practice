@@ -1,5 +1,6 @@
-object Match extends App {
   /*
+
+object Match extends App {
   def printRandomChars(): Unit = {
     for (i <- 1 to 1000) {
       val chars: Seq[Char] = new scala.util.Random(new java.security.SecureRandom()).alphanumeric.take(5).toList
@@ -18,7 +19,7 @@ object Match extends App {
     }
   }
   println(last(Seq(1,2,3)))
-  */
+
 
   def reverse(seq: Seq[Int]): Seq[Int] = {
     seq match {
@@ -28,3 +29,4 @@ object Match extends App {
   }
   println(reverse(Seq(1, 2, 3)))
 }
+  */
