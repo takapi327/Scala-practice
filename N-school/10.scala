@@ -1,3 +1,4 @@
+/*
 import java.util.Random
 
 object RPG extends App {
@@ -94,4 +95,4 @@ class Monster(_hitPoint: Int, _attackDamage: Int, var isAwayFromHero: Boolean)
   override def toString = s"Monster(体力:${hitPoint}, 攻撃力:${attackDamage}, ヒーローから離れている:${isAwayFromHero})"
 
 }
-
+*/
