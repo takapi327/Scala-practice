@@ -1,7 +1,72 @@
-4 29, 2020 11:02:42 午後 org.xnio.Xnio <clinit>
+5 03, 2020 12:54:25 午後 org.xnio.Xnio <clinit>
 INFO: XNIO version 3.6.5.Final
-4 29, 2020 11:02:42 午後 org.xnio.nio.NioXnio <clinit>
+5 03, 2020 12:54:25 午後 org.xnio.nio.NioXnio <clinit>
 INFO: XNIO NIO Implementation Version 3.6.5.Final
-4 29, 2020 11:02:42 午後 org.jboss.threads.Version <clinit>
+5 03, 2020 12:54:25 午後 org.jboss.threads.Version <clinit>
 INFO: JBoss Threads version 2.3.0.Beta2
-INFO  Started Metals http server at http://127.0.0.1:5031
+5 03, 2020 12:55:18 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 37
+5 03, 2020 12:55:18 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 46
+5 03, 2020 12:55:43 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 47
+5 03, 2020 12:56:07 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 55
+5 03, 2020 12:58:30 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 70
+5 03, 2020 12:58:46 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 87
+5 03, 2020 1:00:35 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 94
+5 03, 2020 3:09:52 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 121
+5 03, 2020 3:10:54 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 135
+5 03, 2020 3:12:11 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 155
+5 03, 2020 3:20:31 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 170
+something's wrong: no file:///Users/takapi327/test/nb.scala/Option.scala in Option[<error>]RangePosition(file:///Users/takapi327/test/nb.scala/Option.scala, 600, 600, 607)
+something's wrong: no file:///Users/takapi327/test/nb.scala/Option.scala in Option[<error>]RangePosition(file:///Users/takapi327/test/nb.scala/Option.scala, 600, 600, 607)
+5 03, 2020 3:20:41 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 218
+5 03, 2020 3:22:30 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 228
+5 03, 2020 3:22:39 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 268
+5 03, 2020 3:26:55 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 274
+5 03, 2020 3:29:53 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 285
+5 03, 2020 3:32:12 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 310
+5 03, 2020 3:32:28 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 316
+5 03, 2020 3:33:43 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 320
+5 03, 2020 3:33:51 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 323
+5 03, 2020 3:34:04 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 327
+5 03, 2020 3:42:15 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 332
+5 03, 2020 3:46:42 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 343
+5 03, 2020 3:46:46 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 371
+5 03, 2020 3:47:51 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 375
+5 03, 2020 3:48:21 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 382
+5 03, 2020 3:53:43 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 383
+5 03, 2020 4:07:37 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 393
+5 03, 2020 4:07:49 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 405
+5 03, 2020 4:08:10 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 413
+5 03, 2020 4:10:47 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 424
+5 03, 2020 4:13:11 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 442
