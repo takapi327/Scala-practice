@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/09.scala:26:26: not found: value x[0m
-[0m[[0m[31merror[0m] [0m[0m      case _      => Seq(x)[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/takapi327/test/N-school/11.scala:11:24: not enough arguments for method apply: (name: String, age: Int)App.User in object User.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter age.[0m
+[0m[[0m[31merror[0m] [0m[0m  println(printAge(User(user)))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
