@@ -105,3 +105,9 @@ compile
 run
 compile
 run
+exit
+compile
+exit
+compile
+run
+compile
